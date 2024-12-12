@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <title>Savory Symphony</title>
+  </head>
+  <body>
+    <header class="bg-white border-b-4 border-[#d4a373] shadow-md rounded-lg">
+      <nav class="flex justify-between items-center w-[92%] mx-auto py-4">
+        <div>
+          <h1 class="text-2xl font-bold cursor-pointer text-[#d4a373]">
+            Savory Symphony
+          </h1>
+        </div>
+        <div
+          class="flex md:flex-row flex-col md:w-auto w-full justify-between md:items-center md:gap-[4vw] gap-8 text-[#d4a373] bg-pink500"
+        >
+          <ul
+            class="flex md:flex-row flex-col gap-8 text-[#d4a373] md:text-center md:justify-center md:items-center"
+          >
+            <li>
+              <a class="text-xl hover:text-[#d5bdaf]" href="#home">Home</a>
+            </li>
+            <li>
+              <a class="text-xl hover:text-[#d5bdaf]" href="#about">About</a>
+            </li>
+            <li>
+              <a class="text-xl hover:text-[#d5bdaf]" href="#recipes "
+                >Recipes</a
+              >
+            </li>
+            <li>
+              <a class="text-xl hover:text-[#d5bdaf]" href="#new ">New Posts</a>
+            </li>
+            <li>
+              <a class="text-xl hover:text-[#d5bdaf]" href="#news "
+                >Newsletter</a
+              >
+            </li>
+            <li>
+              <a class="text-xl hover:text-[#d5bdaf]" href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div
+        class="bg-[url('../img/4.jpg')] bg-cover bg-center p-10 h-64 h-screen text-center"
+      >
+        <h1 class="text-6xl">
+          “Where Flavors Dance and Every Dish Tells a Story”
+        </h1>
+        <br />
+        <br />
+        <p class="text-5xl">
+          Welcome to Savory Symphony! I'm Sookie St. James, a chef fueled by
+          creativity, laughter, and a dash of chaos. Join me in crafting recipes
+          that bring joy to your table and a little Stars Hollow magic to your
+          kitchen.
+        </p>
+      </div>
+      <div id="about" class="grid grid-cols-2 h-screen gap-[1px]">
+        <div class="flex flex-col justify-center p-8">
+          <h1 class="text-4xl underline">About Us:</h1>
+          <br />
+          <p class="text-2xl">
+            Welcome to Savory Symphony, where every recipe sings and every bite
+            tells a story! I'm Sookie St. James, a chef, food enthusiast, and
+            proud culinary daydreamer from Stars Hollow. This blog is my
+            personal playground for all things delicious—where I share my
+            passion for experimenting in the kitchen, discovering bold flavors,
+            and creating dishes that bring people together. As the executive
+            chef of the Dragonfly Inn, I've spent years crafting meals that warm
+            the soul. Now, through Savory Symphony, I want to bring that same
+            joy to your home kitchen. From hearty comfort food to unexpected
+            gourmet twists, you'll find recipes that celebrate the magic of
+            cooking with love (and maybe a little chaos). When I'm not in the
+            kitchen, I'm probably chasing my kids, debating produce with my
+            husband Jackson, or laughing too loudly with my best friend Lorelai.
+            Join me on this flavorful journey as we turn every meal into a
+            masterpiece—one note at a time. Let's create something savory
+            together!
+          </p>
+        </div>
+        <div class="relative w-full h-full">
+          <div class="absolute top-0 left-0 w-full h-full">
+            <img src="../img/5.jpg" alt="" class="w-full h-full object-cover" />
+          </div>
+        </div>
+      </div>
+      <div id="recipes" class="grid grid-cols-2 gap-[1px]">
+        <div class="flex flex-col justify-center p-8">
+          <h1 class="text-4xl underline">Recipes:</h1>
+          <br />
+          <h2 class="text-3xl">Truffle Parmesan Gougères</h2>
+          <h3 class="text-2xl">Description:</h3>
+          <p class="text-2xl">
+            Delicate French cheese puffs infused with black truffle essence,
+            topped with freshly shaved Parmesan for a burst of umami. Served
+            with a side of truffle aioli for dipping.
+          </p>
+          <h3 class="text-2xl">Ingredients:</h3>
+          <ul class="text-2xl">
+            <li>1 cup water</li>
+            <li>1/2 cup unsalted butter</li>
+            <li>1 tsp salt</li>
+            <li>1 cup all-purpose flour</li>
+            <li>4 large eggs</li>
+            <li>1 cup grated Gruyère cheese</li>
+            <li>1/2 cup freshly grated Parmesan cheese</li>
+            <li>1 tsp truffle oil (optional)</li>
+            <li>Freshly ground black pepper</li>
+            <li>Microgreens (for garnish)</li>
+            <li>Truffle Aioli</li>
+          </ul>
+        </div>
+        <div class="relative w-full h-full">
+          <div class="absolute top-0 left-0 w-full h-full">
+            <img src="../img/6.jpg" alt="" class="w-full h-full object-cover" />
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-2 gap-[1px]">
+        <div class="flex flex-col justify-center p-8">
+          <h2 class="text-3xl">
+            Pan-Seared Duck Breast with Cherry-Port Reduction
+          </h2>
+          <h3 class="text-2xl">Description:</h3>
+          <p class="text-2xl">
+            A succulent duck breast, perfectly pan-seared to achieve crispy skin
+            and juicy meat, served with a luxurious cherry-port reduction.
+            Accompanied by a creamy parsnip purée and sautéed green beans for an
+            elegant and balanced plate.
+          </p>
+          <h3 class="text-2xl">Ingredients:</h3>
+          <ul class="text-2xl">
+            <h4>For the Duck:</h4>
+            <li>2 duck breasts (about 6-8 oz each)</li>
+            <li>Salt and freshly ground black pepper (to taste)</li>
+            <li>1 tsp fresh thyme leaves</li>
+          </ul>
+          <ul class="text-2xl">
+            <h3>For the Cherry-Port Reduction:</h3>
+            <li>1 cup pitted cherries (fresh or frozen)</li>
+            <li>1/2 cup ruby port wine</li>
+            <li>1/2 cup chicken stock</li>
+            <li>1 tbsp balsamic vinegar</li>
+            <li>1 tbsp honey</li>
+            <li>
+              1 tsp cornstarch mixed with 1 tsp water (optional, for thickening)
+            </li>
+          </ul>
+          <ul class="text-2xl">
+            <h3>For the Parsnip Purée:</h3>
+            <li>4 parsnips (peeled and chopped)</li>
+            <li>1/2 cup heavy cream</li>
+            <li>2 tbsp unsalted butter</li>
+            <li>Salt and freshly ground white pepper (to taste)</li>
+          </ul>
+          <ul class="text-2xl">
+            <h3>For the Sautéed Green Beans:</h3>
+            <li>1/2 lb green beans (trimmed)</li>
+            <li>1 tbsp olive oil</li>
+            <li>1 clove garlic (minced)</li>
+            <li>Salt and pepper (to taste)</li>
+          </ul>
+        </div>
+        <div class="relative w-full h-full">
+          <div class="absolute top-0 left-0 w-full h-full">
+            <img src="../img/7.jpg" alt="" class="w-full h-full object-cover" />
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-2 gap-[1px]">
+        <div class="flex flex-col justify-center p-8">
+          <h2 class="text-3xl">Dark Chocolate Mousse with Raspberry Coulis</h2>
+          <h3 class="text-2xl">Description:</h3>
+          <p class="text-2xl">
+            An indulgent dark chocolate mousse with a silky, airy texture,
+            topped with a vibrant raspberry coulis. Finished with fresh berries
+            and a dusting of powdered sugar for an elegant touch.
+          </p>
+          <h3 class="text-2xl">Ingredients:</h3>
+          <ul class="text-2xl">
+            <h4>For the Chocolate Mousse:</h4>
+            <li>6 oz dark chocolate (70% cocoa or higher)</li>
+            <li>3 large eggs (separated)</li>
+            <li>2 tbsp granulated sugar</li>
+            <li>1 cup heavy cream (chilled)</li>
+            <li>1 tsp vanilla extract</li>
+            <li>Pinch of salt</li>
+          </ul>
+          <ul class="text-2xl">
+            <h3>For the Raspberry Coulis:</h3>
+            <li>1 cup fresh or frozen raspberries</li>
+            <li>2 tbsp granulated sugar</li>
+            <li>1 tbsp lemon juice</li>
+          </ul>
+          <ul class="text-2xl">
+            <h3>For Garnish:</h3>
+            <li>Fresh raspberries</li>
+            <li>Mint leaves</li>
+            <li>Powdered sugar</li>
+          </ul>
+        </div>
+        <div class="relative w-full h-full">
+          <div class="absolute top-0 left-0 w-full h-full">
+            <img src="../img/8.jpg" alt="" class="w-full h-full object-cover" />
+          </div>
+        </div>
+      </div>
+      <div id="new" class="grid grid-cols-2 h-screen gap-[1px]">
+        <div class="flex flex-col justify-center p-8">
+          <h1 class="text-4xl underline">New Postes:</h1>
+          <br />
+          <p class="text-2xl">
+            When Lorelai and I decided to open the Dragonfly Inn, we had no idea
+            how much it would change our lives. It all started as a dream—just
+            two friends with big ideas, a love for good food, and a shared
+            vision of creating a cozy, welcoming space for travelers in Stars
+            Hollow. From the very beginning, we knew we wanted something
+            special—something that felt like home for everyone who walked
+            through our doors. As the head chef, I've had the joy of crafting
+            delicious meals that not only satisfy but also bring people
+            together. Every dish is made with love, just like the inn itself.
+            Lorelai handles all the business stuff (and does it with her usual
+            flair), while I'm in the kitchen, making sure every guest leaves
+            with a smile on their face—and a full stomach. The Dragonfly Inn is
+            more than just a place to stay; it's a little piece of our hearts, a
+            reflection of who we are, and a celebration of everything we love
+            about food, friendship, and small-town life. We hope every guest who
+            visits feels like part of our extended family. After all, in Stars
+            Hollow, there's always room for one more at the table.
+          </p>
+        </div>
+        <div class="relative w-full h-full">
+          <div class="absolute top-0 left-0 w-full h-full">
+            <img src="../img/1.jpg" alt="" class="w-full h-full object-cover" />
+          </div>
+        </div>
+      </div>
+      <div id="news"> <h1 class="text-[#d4a373] text-4xl">Subscribe</h1>
+        <p class="text-[#d4a373] text-2xl">subscribe to the Savory Symphony so you can see more recipes</p><br>
+      <div class="mb-4">
+        <label for="email" class="block text-xl text-[#d4a373]"
+        >E-mail:</label
+      >
+      <input
+        type="email"
+        id="email"
+        name="email"
+        class="w-full p-3 border border-[#d4a373] rounded-lg"
+        required
+      />
+    </div>
+
+    <div class="text-center">
+      <button
+        type="submit"
+        class="res bg-[#d4a373] text-white px-6 py-3 rounded-lg hover:bg-[#d5bdaf] text-xl"
+      >
+        Subscribe
+      </button>
+    </div>
+  </form>
+</div>
+</div>
+<div id="contact" ><h1 class="text-4xl text-[#d4a373]">Contact Us:</h1> 
+    <div class="mb-4">
+        <label for="first-name" class="block text-xl text-[#d4a373]"
+          >First Name:</label
+        >
+        <input
+          type="text"
+          id="first-name"
+          name="first-name"
+          class="w-full p-3 border border-[#d4a373] rounded-lg"
+          required
+        />
+      </div>
+
+      <div class="mb-4">
+        <label for="last-name" class="block text-xl text-[#d4a373]"
+          >Last Name:</label
+        >
+        <input
+          type="text"
+          id="last-name"
+          name="last-name"
+          class="w-full p-3 border border-[#d4a373] rounded-lg"
+          required
+        />
+      </div>
+
+      <div class="mb-4">
+        <label for="phone" class="block text-xl text-[#d4a373]"
+          >Phone Number:</label
+        >
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          class="w-full p-3 border border-[#d4a373] rounded-lg"
+          required
+        />
+      </div>
+
+      <div class="mb-4">
+        <label for="email" class="block text-xl text-[#d4a373]"
+          >E-mail:</label
+        >
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="w-full p-3 border border-[#d4a373] rounded-lg"
+          required
+        />
+      </div>
+
+      <div class="text-center">
+        <button
+          type="submit"
+          class="res bg-[#d4a373] text-white px-6 py-3 rounded-lg hover:bg-[#d5bdaf] text-xl"
+        >
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+    </main>
+    <footer
+      class="bg-white border-t-4 border-[#d4a373] shadow-md rounded-lg py-8 mt-auto"
+    >
+      <div class="max-w-screen-lg mx-auto text-center">
+        <div class="flex justify-center gap-6 mb-6">
+          <a
+            href="./extra.html"
+            class="text-2xl text-[#d4a373] hover:text-[#d5bdaf]"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a
+            href="./extra.html"
+            class="text-2xl text-[#d4a373] hover:text-[#d5bdaf]"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="./extra.html"
+            class="text-2xl text-[#d4a373] hover:text-[#d5bdaf]"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a
+            href="./extra.html"
+            class="text-2xl text-[#d4a373] hover:text-[#d5bdaf]"
+          >
+            <i class="fa-brands fa-google-plus"></i>
+          </a>
+          <a
+            href="./extra.html"
+            class="text-2xl text-[#d4a373] hover:text-[#d5bdaf]"
+          >
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </div>
+        <div>
+          <p class="text-lg text-[#d4a373]">
+            Copyright &copy;2024; Designed by
+            <span class="font-bold text-[#d4a373]">Malek</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
